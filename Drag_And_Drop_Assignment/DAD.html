@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag And Drop</title>
+    <link
+      rel="icon"
+      href="https://acert.commons.gc.cuny.edu/files/2020/03/best-practice.png"
+      type="image/icon type"
+    />
+    <link rel="stylesheet" href="DAD.js" type="text/Javascript" />
+    <link rel="stylesheet" href="DAD.css" type="text/css" />
+  </head>
+  <body>
+    <h1 id="heading">Drag & Drop</h1>
+
+    <div class="main">
+      <div class="boxes">
+        <!-- draggable="true" is used to drag the elements -->
+        <p draggable="true" id="p">Plan</p>
+        <p draggable="true" id="p">Design</p>
+        <p draggable="true" id="p">Implement</p>
+        <p draggable="true" id="p">Test</p>
+        <p draggable="true" id="p">Deploy</p>
+        <p draggable="true" id="p">Maintain</p>
+      </div>
+      <div class="boxes"></div>
+      <div class="boxes"></div>
+      <div class="boxes"></div>
+      <div class="boxes"></div>
+      <div class="boxes"></div>
+
+      
+    </div>
+    <input type="button" value="Reset" id="reset" onclick="reset1()" />
+
+    <script src="DAD.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+
+/* Adding the heading in center */
+#heading{
+    top: 20px;
+    text-align: center;
+    position: relative;
+}
+
+/* Adding entire margine of the page to 0 */
+*{
+    margin: 0;
+}
+
+/* Addjusting the position of the main div where all other dives will adjust according to it */
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+/* Addjusting the position of each box equally  */
+.boxes{
+    width: 200px;
+    height: 300px;
+    background-color: #efdede;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Adding color and styles to the content present in the p tag */
+#p{
+    background-color:red;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    width: 80%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: bold;
+    
+}
+
+/* This will change the color of the elements when user mouse hovers over elements present in p tag */
+#p:hover{
+    background-color: #94e08e;
+}
+
+#reset{
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+    size: 25px;
+    color: black;
+    height: 40px;
+    width: 1000px;
+    background-color: #057b7e;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: inherit;
+    border-radius: 10px;
+    
+}
+
+#reset:hover{
+    box-shadow: 0 0 10px rgb(5, 195, 100);
+    cursor: pointer;
+    background-color: antiquewhite;
+}
